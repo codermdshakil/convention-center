@@ -1,0 +1,42 @@
+/* google fonts linked here  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Manrope:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#E5E5E5;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header-section starts here  */
+.header-section{
+    padding:6px 0px;
+}
+.navbar-brand h2{
+    color: #3E3E3E;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    font-feature-settings: 'liga' off;
+}
+.nav-styled {
+    color: #3E3E3E;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+}
+.nav-styled:hover{
+    color: #3E3E3E;
+}
