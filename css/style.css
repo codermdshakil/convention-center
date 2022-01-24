@@ -105,6 +105,9 @@ moment-section starts here
     line-height: 28px;
     color: #6C6C6C;
 }
+.toast-body{
+    border-left: 1px solid black;
+}
 .btn{
     background-color:#3F87F5;
     border:1px solid #3F87F5;
@@ -274,7 +277,6 @@ top-wedding-section starts here
     border-radius: 26px;
     color:#FFFFFF;
     padding: 20px;
-    margin-bottom: 40px;
 }
 .pricing-box2 h2{
     font-family: 'Roboto', sans-serif;
@@ -336,9 +338,25 @@ top-wedding-section starts here
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.833333px;
-
 }
-
+/* accordion-section starts here  */
+.accordion-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 50px;
+    color: #0D0925;
+    padding: 50px 0px;
+}
+.title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #383838;
+}
 
 
 
@@ -366,7 +384,7 @@ top-wedding-section starts here
 }
 
 
-@media screen and (max-width:578px){
+@media screen and (max-width:688px){
     /* home section starts here  */
     .carousel-caption h1{
         font-size: 20px;
