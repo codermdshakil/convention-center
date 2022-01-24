@@ -193,12 +193,151 @@ top-wedding-section starts here
     line-height: 24px;
     transition:.3s ease;
 }
+/* pricing-section starts here  */
+.packages-title{
+    font-style: normal;
+    color: #0A0826;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    margin-bottom: 45px;
+}
+.pricing-contents{
+    background-color: #FFFF;
+    padding: 10px;
+    border-radius: 26px;
+}
+.pricing-box{
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.pricing-box h2{
+    font-style: normal;
+    font-weight: bold;
+    color: #231D4F;
+    font-size: 36px;
+    line-height: 46px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.pricing-box h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size:24px;
+    color: #231D4F;
+    line-height: 30px;
+}
+.pricing-box p{
+    color: #848199;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+.list i{
+    padding: 5px;
+    background: rgba(82, 67, 194, 0.103693);
+    color: #5243C2;
+    margin: 8px 0px;
+    font-size: 11px;
+    margin-right: 8px;
+    border-radius: 50px;
+}
+.list{
+    color:#848199;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+.pricing-btn{
+    background: #f496d22f;
+    border: none;
+    mix-blend-mode: normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    color:#3F87F5;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.hot-box{
+    position: relative;
+}
+.pricing-box2{
+    position: relative;
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+    color:#FFFFFF;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.pricing-box2 h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+}
+.pricing-box2 h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+}
+.pricing-box2 p{
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+}
+.list2 i{
+    padding: 5px;
+    background:#ffffff31;
+    color:#FFFF;
+    margin: 8px 0px;
+    font-size: 11px;
+    margin-right: 8px;
+    border-radius: 50px;
+}
+.pricing-btn2{
+    background:#FFFFFF;
+    border: none;
+    mix-blend-mode: normal;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    color:#3F87F5;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.hot{
+    position: absolute;
+    top: -10px;
+    right:50px;
+}
+.hot-title{
+    font-family: 'Roboto', sans-serif;
+    background: #FF4E4E;
+    border-radius: 13.5px;
+    padding: 4px 8px;
+    color:#FFFFFF;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.833333px;
 
-
-
-
-
-
+}
 
 
 
@@ -220,10 +359,15 @@ top-wedding-section starts here
         font-size: 13px;
         line-height: 25px;
     }
+    /* pricing section starts here  */
+    .pricing-box{
+        margin-bottom: 30px;
+    }
 }
 
 
 @media screen and (max-width:578px){
+    /* home section starts here  */
     .carousel-caption h1{
         font-size: 20px;
         line-height: 18px;
@@ -236,6 +380,10 @@ top-wedding-section starts here
     }
     .home-btn{
         font-size: 10px;
+    }
+    /* pricing section starts here  */
+    .pricing-box{
+        margin-bottom: 40px;
     }
     
     
