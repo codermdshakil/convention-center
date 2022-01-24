@@ -17,7 +17,9 @@ body{
     box-sizing: border-box;
 }
 
-/* header-section starts here  */
+/*-----------------------------------
+header-section starts here
+-----------------------------------  */
 .header-section{
     padding:6px 0px;
 }
@@ -39,4 +41,109 @@ body{
 }
 .nav-styled:hover{
     color: #3E3E3E;
+}
+/*-----------------------------------
+home-section starts here
+-----------------------------------  */
+.home-section{
+    margin: 0px;
+    padding:0px;
+}
+.carousel-item{
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 21.92%, rgba(0, 0, 0, 0.418) 160.04%, rgba(0, 0, 0, 0.121) 160.06%), url(.jpg);
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+.carousel-caption h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color:#FFFF;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.carousel-caption p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom:17px;
+}
+.home-btn{
+    text-decoration: none;
+    background-color: #FFFF;
+    color: #3F87F5;
+    border:1px solid #FFFF;
+    border-radius: 5px;
+    padding: 6px 25px;
+    margin-bottom: 10px;
+    transition: .2s ease; 
+    cursor: pointer;
+}
+.home-btn:hover{
+    background-color: #3F87F5;
+    color: #FFFF;
+}
+
+/*-----------------------------------
+moment-section starts here
+----------------------------------  */
+.image-info h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+    margin-bottom: 6px;
+}
+.image-info p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.btn{
+    background-color:#3F87F5;
+    color: #FFFF;
+    padding:5px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width:1024px){
+    /* home section start  */
+    .carousel-caption h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .carousel-caption p{
+        font-size: 13px;
+        line-height: 25px;
+    }
+}
+
+
+@media screen and (max-width:578px){
+    .carousel-caption h1{
+        font-size: 20px;
+        line-height: 18px;
+        margin-bottom: 7px;
+    }
+    .carousel-caption p{
+        font-size: 9px;
+        line-height: 10px;
+        margin-bottom: 5px;
+    }
+    .home-btn{
+        font-size: 10px;
+    }
+    
+    
 }
