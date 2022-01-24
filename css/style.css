@@ -117,6 +117,15 @@ moment-section starts here
     color:#3F87F5;
     background-color:#FFFF;
 }
+
+/*---------------------------
+toast section starts here
+--------------------------  */
+.toast-header{
+    border-left: 3px solid #3F87F5;
+}
+
+
 /*------------------------------------
 top-wedding-section starts here
 -------------------------------------- */
@@ -353,6 +362,49 @@ accordion-section starts here
     font-feature-settings: 'tnum' on, 'lnum' on;
     color: #383838;
 }
+/*----------------------------
+feedback-section starts here 
+------------------------------- */
+.client{
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+.client p{
+    font-style: normal;
+    font-weight: normal;
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+}
+.client img{
+    margin-bottom: 18px;
+}
+.client h4{
+    font-style: normal;
+    color: #0C1920;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+.client h5{
+    font-style: normal;
+    color: #747474;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
 
 /*-------------------------------
 footer-section starts here
@@ -386,14 +438,6 @@ footer-section starts here
 .appstore{
     cursor: pointer;
 }
-
-/*---------------------------
-toast section starts here
---------------------------  */
-.toast-header{
-    border-left: 3px solid #3F87F5;
-}
-
 
 
 /* media queary  */
