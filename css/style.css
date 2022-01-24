@@ -358,10 +358,36 @@ top-wedding-section starts here
     color: #383838;
 }
 
+/* footer-section starts here  */
+.footer-section{
+    background: #0B0D17;
+    padding: 50px 0px;
+}
+.credit{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
+}
+.developer{
+    cursor:pointer
+}
 
-
-
-
+.footer-right h4{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
+}
+.appstore{
+    cursor: pointer;
+}
 
 
 
