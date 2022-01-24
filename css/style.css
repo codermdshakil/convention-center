@@ -46,10 +46,6 @@ home-section starts here
     margin: 0px;
     padding:0px;
 }
-.carousel-item{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 21.92%, rgba(0, 0, 0, 0.418) 160.04%, rgba(0, 0, 0, 0.121) 160.06%), url(.jpg);
-    border-radius: 0px 0px 5px 5px;
-}
 .carousel-caption h1{
     font-style: normal;
     font-weight: 600;
@@ -105,9 +101,7 @@ moment-section starts here
     line-height: 28px;
     color: #6C6C6C;
 }
-.toast-body{
-    border-left: 1px solid black;
-}
+
 .btn{
     background-color:#3F87F5;
     border:1px solid #3F87F5;
@@ -207,7 +201,7 @@ top-wedding-section starts here
 }
 .pricing-contents{
     background-color: #FFFF;
-    padding: 10px;
+    padding: 40px 10px;
     border-radius: 26px;
 }
 .pricing-box{
@@ -339,7 +333,9 @@ top-wedding-section starts here
     text-align: center;
     letter-spacing: 0.833333px;
 }
-/* accordion-section starts here  */
+/*---------------------------------
+accordion-section starts here
+-----------------------------------  */
 .accordion-title{
     font-style: normal;
     font-weight: 600;
@@ -358,7 +354,9 @@ top-wedding-section starts here
     color: #383838;
 }
 
-/* footer-section starts here  */
+/*-------------------------------
+footer-section starts here
+----------------------------------  */
 .footer-section{
     background: #0B0D17;
     padding: 50px 0px;
@@ -389,6 +387,12 @@ top-wedding-section starts here
     cursor: pointer;
 }
 
+/*---------------------------
+toast section starts here
+--------------------------  */
+.toast-header{
+    border-left: 3px solid #3F87F5;
+}
 
 
 
